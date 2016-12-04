@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1480850523 source:z:\tugas asd\tubes_sd\guru.cpp
+	"guru.h"
+
+1480850523 z:\tugas asd\tubes_sd\guru.h
+	"siswa.h"
+	<iostream>
+
+1480850728 z:\tugas asd\tubes_sd\siswa.h
+	<iostream>
+
+1480851098 source:z:\tugas asd\tubes_sd\main.cpp
+	<iostream>
+	<stdlib.h>
+	<windows.h>
+	"guru.h"
+	"siswa.h"
+
+1480850769 source:z:\tugas asd\tubes_sd\siswa.cpp
+	"siswa.h"
+
