@@ -11,7 +11,7 @@ struct guru {
     int nip;
     string nama;
     int umur;
-    string mengajar;
+    int mengajar;
     string kelas;
 };
 
