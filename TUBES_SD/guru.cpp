@@ -94,11 +94,11 @@ void printInfo(List_guru L)
     {
         do
         {
-            cout<<"Nomor Induk Pegawai  : "<<info(P).nip<<endl;
-            cout<<"Nama                 : "<<info(P).nama<<endl;
-            cout<<"Umur                 : "<<info(P).umur<<endl;
-            cout<<"Masa Mengajar        : "<<info(P).mengajar<<endl;
-            cout<<"Kelas                : "<<info(P).kelas<<endl<<endl;
+            cout<<"Nomor Induk Pegawai   : "<<info(P).nip<<endl;
+            cout<<"Nama                  : "<<info(P).nama<<endl;
+            cout<<"Umur                  : "<<info(P).umur<<endl;
+            cout<<"Masa Mengajar (tahun) : "<<info(P).mengajar<<endl;
+            cout<<"Kelas                 : "<<info(P).kelas<<endl<<endl;
             P = next(P);
         }
         while(P!=NULL);
