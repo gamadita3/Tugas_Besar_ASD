@@ -56,19 +56,19 @@ int main()
                             system("cls");
                             cout<<endl<<" |                SELAMAT DATANG DI SDN CIGANITRI                |"<<endl<<endl;
                             cout<<"Masukan Data Guru"<<endl<<endl;
-                            cout<<"NIP             : ";
+                            cout<<"NIP                    : ";
                             cin>>a.nip;
                             cout<<endl;
-                            cout<<"Nama            : ";
+                            cout<<"Nama                   : ";
                             cin>>a.nama;
                             cout<<endl;
-                            cout<<"Umur            : ";
+                            cout<<"Umur                   : ";
                             cin>>a.umur;
                             cout<<endl;
-                            cout<<"Masa Mengajar   : ";
+                            cout<<"Masa Mengajar (tahun) : ";
                             cin>>a.mengajar;
                             cout<<endl;
-                            cout<<"Kelas           : ";
+                            cout<<"Kelas                 : ";
                             cin>>a.kelas;
                             cout<<endl;
                             if (findElm(g,a.nama,a.kelas)== NULL)
@@ -136,11 +136,11 @@ int main()
                             crg = findElm(g,a.nama,a.kelas);
                             if(crg != NULL)
                             {
-                                cout<<"NIP           : "<<info(crg).nip<<endl;
-                                cout<<"Nama          : "<<info(crg).nama<<endl;
-                                cout<<"Umur          : "<<info(crg).umur<<endl;
-                                cout<<"Masa Mengajar : "<<info(crg).mengajar<<endl;
-                                cout<<"Kelas         : "<<info(crg).kelas<<endl;
+                                cout<<"NIP                   : "<<info(crg).nip<<endl;
+                                cout<<"Nama                  : "<<info(crg).nama<<endl;
+                                cout<<"Umur                  : "<<info(crg).umur<<endl;
+                                cout<<"Masa Mengajar (Tahun) : "<<info(crg).mengajar<<endl;
+                                cout<<"Kelas                 : "<<info(crg).kelas<<endl;
                             }
                             else
                             {
@@ -328,7 +328,7 @@ int main()
                             }
                             else
                             {
-                                cout<<"Siswa Tidak Di Temukan"<<endl;
+                                cout<<"Siswa Tidak Di Ada"<<endl;
                             }
                             cout<<endl<<endl<<"1. Kembali"<<endl<<endl<<"Pilih : ";
                             cin>>i;
